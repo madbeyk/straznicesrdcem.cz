@@ -1,0 +1,51 @@
+---
+layout: default
+rbar: 
+   - fb
+   #- calendar
+img: banner-default.jpg
+---
+
+{% include homepage/banner.html 
+   link='/komunalni-volby/'
+   title='Komunální volby 2018'
+   default='fff.jpg'
+   mobile='banner-mobile-new.jpg'
+   breakpoint=640
+%}
+
+<div class="row">
+  <div class="medium-12 large-8 columns">
+    <section class="o-section o-section--spaceBot">
+      <div class='c-content-block c-emphasized-text'>
+      
+      <h1>V říjnových komunálních volbách kandidujeme s číslem 2</h1> 
+      
+      <p>
+      Chceme, aby Strážnice byla moderním městem se silnou tradicí i historií. Chceme, aby vedení města problémy řešilo, ne před nimi zavíralo oči. Chceme, aby 21. století přišlo i k nám, na jihovýchod Moravy.
+      </p>
+      
+      <p>
+      <strong>Naším hlavním cílem je změna v Radě a vedení města. Podpoříme takovou koalici, která, v rámci možností vyplývajících z volebního výsledku, upřednostní zcela nové tváře v Radě města.</strong>
+      </p>
+      
+      <p>
+      Stanovili jsme si 5 prioritních témat, která nejsou jen našim hlavním cílem, ale budou nepřekročitelnou podmínkou pro naši účast či podporu jakékoliv koalice na radnici. Našich 5 priorit je:
+      <ul>
+        <li>Otevřená radnice naslouchající svým občanům a transparentní hospodaření založené na důvěře i kontrole.
+        <li>Opatření pro zmírnění sucha a následků klimatické změny, ochlazení města a zlepšení schopnosti krajiny okolo Strážnice zadržet vodu.
+        <li>Řešení bytové situace a nedostatku stavebních parcel.
+        <li>Vytvoření podmínek pro předcházení zbytečným sociálním problémům (exekuce, bezdomovectví, závislosti) a řešení zvětšujícího se počtu lidí na hraně bezdomovectví.
+        <li>Vybudování sdílené kuchyně, která bude sloužit k rozvoji podnikání i komunitního života.
+      </ul>  
+      
+      Více informací o programu najdete na podstránce <a href='/program'>Program</a>
+      </div>
+    </section>
+  </div>
+  {% if page.rbar %}
+  <div class="medium-12 large-4 columns">
+    {% include right-bar/rbar.html param='rbar' %}
+  </div>
+  {% endif %}
+</div>
