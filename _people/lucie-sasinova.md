@@ -9,7 +9,7 @@ category:
   - kandidat-obec
 ordclenove: 15
 description: 23 let, OSVČ # zobrazuje se v lide
-#img: people/lucie-sasinova.jpg # zakomentuj radek dokud není fotka
+img: people/lucie-sasinova.jpg # zakomentuj radek dokud není fotka
 #mail:
 #  - lucie.sasinova@pirati.cz
 profiles:

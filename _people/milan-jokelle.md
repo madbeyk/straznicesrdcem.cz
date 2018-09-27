@@ -9,7 +9,7 @@ category:
   - kandidat-obec
 ordclenove: 20
 description: 51 let, řidič # zobrazuje se v lide
-#img: people/milan-jokelle.jpg # zakomentuj radek dokud není fotka
+img: people/milan-jokelle.jpg # zakomentuj radek dokud není fotka
 #mail:
 #  - milan.jokelle@pirati.cz
 profiles:

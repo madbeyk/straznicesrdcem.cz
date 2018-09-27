@@ -9,7 +9,7 @@ category:
   - kandidat-obec
 ordclenove: 9
 description: 48 let, OSVČ # zobrazuje se v lide
-#img: people/hynek-brydlak.jpg # zakomentuj radek dokud není fotka
+img: people/hynek-brydlak.jpg # zakomentuj radek dokud není fotka
 #mail:
 #  - hynek.brydlak@pirati.cz
 profiles:

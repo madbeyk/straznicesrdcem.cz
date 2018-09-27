@@ -9,7 +9,7 @@ category:
   - kandidat-obec
 ordclenove: 18
 description: 25 let, student # zobrazuje se v lide
-#img: people/patrik-brydlak.jpg # zakomentuj radek dokud není fotka
+img: people/patrik-brydlak.jpg # zakomentuj radek dokud není fotka
 #mail:
 #  - patrik.brydlak@pirati.cz
 profiles:

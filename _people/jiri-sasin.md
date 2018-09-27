@@ -9,7 +9,7 @@ category:
   - kandidat-obec
 ordclenove: 8
 description: 48 let, podnikatel # zobrazuje se v lide
-#img: people/jiri-sasin.jpg # zakomentuj radek dokud není fotka
+img: people/jiri-sasin.jpg # zakomentuj radek dokud není fotka
 #mail:
 #  - jiri.sasin@pirati.cz
 profiles:

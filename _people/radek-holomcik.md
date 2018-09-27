@@ -9,7 +9,7 @@ category:
   - kandidat-obec
 ordclenove: 12
 description: 33 let, poslanec PS PČR # zobrazuje se v lide
-#img: people/radek-holomcik.jpg # zakomentuj radek dokud není fotka
+img: people/radek-holomcik.jpg # zakomentuj radek dokud není fotka
 #mail:
 #  - radek.holomcik@pirati.cz
 profiles:

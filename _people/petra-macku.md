@@ -9,7 +9,7 @@ category:
   - kandidat-obec
 ordclenove: 11
 description: 33 let, administrativní pracovnice # zobrazuje se v lide
-#img: people/petra-macku.jpg # zakomentuj radek dokud není fotka
+img: people/petra-macku.jpg # zakomentuj radek dokud není fotka
 #mail:
 #  - petra.macku@pirati.cz
 profiles:

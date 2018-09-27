@@ -9,7 +9,7 @@ category:
   - kandidat-obec
 ordclenove: 19
 description: 27 let, učitel # zobrazuje se v lide
-#img: people/pavel-somogyi.jpg # zakomentuj radek dokud není fotka
+img: people/pavel-somogyi.jpg # zakomentuj radek dokud není fotka
 #mail:
 #  - pavel.somogyi@pirati.cz
 profiles:

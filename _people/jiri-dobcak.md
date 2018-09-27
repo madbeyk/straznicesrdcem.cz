@@ -9,7 +9,7 @@ category:
   - kandidat-obec
 ordclenove: 6
 description: 39 let, IT konzultant # zobrazuje se v lide
-#img: people/jiri-dobcak.jpg # zakomentuj radek dokud není fotka
+img: people/jiri-dobcak.jpg # zakomentuj radek dokud není fotka
 #mail:
 #  - jiri.dobcak@pirati.cz
 profiles:

@@ -9,7 +9,7 @@ category:
   - kandidat-obec
 ordclenove: 16
 description: 25 let, student Teologické fakulty JU # zobrazuje se v lide
-#img: people/filip-martinek.jpg # zakomentuj radek dokud není fotka
+img: people/filip-martinek.jpg # zakomentuj radek dokud není fotka
 #mail:
 #  - filip.martinek@pirati.cz
 profiles:

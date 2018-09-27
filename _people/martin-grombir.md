@@ -9,7 +9,7 @@ category:
   - kandidat-obec
 ordclenove: 7
 description: 27 let, mechanik # zobrazuje se v lide
-#img: people/martin-grombir.jpg # zakomentuj radek dokud není fotka
+img: people/martin-grombir.jpg # zakomentuj radek dokud není fotka
 #mail:
 #  - martin.grombir@pirati.cz
 profiles:

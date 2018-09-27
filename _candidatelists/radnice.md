@@ -1,11 +1,11 @@
 ---
 title: Kandidátka na radnici
 uid: radnice
-number: 2 # číslo kandidátky odkomentujte až bude známé
+#number:  # číslo kandidátky odkomentujte až bude známé
 leader:
   uid: richard.macku
   age: 47
-  profession: prodejce textilních tkanin
+  profession: manažer prodeje, prodejce textilních tkanin
   party: člen TOP 09
 
 head: # čelo kandidátky (bez leadera) / lidé kteří mají fotku a _people/jmeno.md

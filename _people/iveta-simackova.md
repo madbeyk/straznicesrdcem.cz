@@ -9,7 +9,7 @@ category:
   - kandidat-obec
 ordclenove: 2
 description: 50 let, OSVČ # zobrazuje se v lide
-#img: people/iveta-simackova.jpg # zakomentuj radek dokud není fotka
+img: people/iveta-simackova.jpg # zakomentuj radek dokud není fotka
 #mail:
 #  - iveta.simackova@pirati.cz
 profiles:

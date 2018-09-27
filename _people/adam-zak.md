@@ -9,7 +9,7 @@ category:
   - kandidat-obec
 ordclenove: 13
 description: 20 let, student # zobrazuje se v lide
-#img: people/adam-zak.jpg # zakomentuj radek dokud není fotka
+img: people/adam-zak.jpg # zakomentuj radek dokud není fotka
 #mail:
 #  - adam.zak@pirati.cz
 profiles:

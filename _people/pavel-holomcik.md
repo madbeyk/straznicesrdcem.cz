@@ -9,7 +9,7 @@ category:
   - kandidat-obec
 ordclenove: 10
 description: 45 let, OSVČ # zobrazuje se v lide
-#img: people/pavel-holomcik.jpg # zakomentuj radek dokud není fotka
+img: people/pavel-holomcik.jpg # zakomentuj radek dokud není fotka
 #mail:
 #  - pavel.holomcik@pirati.cz
 profiles:

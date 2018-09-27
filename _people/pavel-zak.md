@@ -9,7 +9,7 @@ category:
   - kandidat-obec
 ordclenove: 21
 description: 55 let, konzervátor # zobrazuje se v lide
-#img: people/pavel-zak.jpg # zakomentuj radek dokud není fotka
+img: people/pavel-zak.jpg # zakomentuj radek dokud není fotka
 #mail:
 #  - pavel.zak@pirati.cz
 profiles:

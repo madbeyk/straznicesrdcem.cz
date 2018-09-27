@@ -9,7 +9,7 @@ category:
   - kandidat-obec
 ordclenove: 14
 description: 24 let, řidič # zobrazuje se v lide
-#img: people/jiri-sochor.jpg # zakomentuj radek dokud není fotka
+img: people/jiri-sochor.jpg # zakomentuj radek dokud není fotka
 #mail:
 #  - jiri.sochor@pirati.cz
 profiles:

@@ -1,0 +1,26 @@
+---
+layout: default
+title: Ozvěte se nám
+---
+
+<div class="row o-section-block ">
+  <div class="medium-12 large-12 columns">
+    <section class="o-section">
+      <div class="o-section-inner">
+        <main class="o-section-block">
+          <!-- Article -->
+          <article itemtype="http://schema.org/BlogPosting" itemscope="">
+            <!--<link itemprop="mainEntityOfPage" href="http://insertshownpagelinkhere.com">-->
+            <header class="c-page-header">
+              <h1 itemprop="headline" class="c-page-title">Ozvěte se nám</h1>
+            </header>
+          {% assign contactPersons = site.people | where_exp: "item","item.category contains 'kontaktni_osoba'" | sort:"ordpak" %}
+          {% for person in contactPersons %}
+            {% include people/profile-badge.html item=person imgSize='big' imgStyle='round' class='c-profile-badge--centered' %}
+          {% endfor %}
+          </article>
+        </main>
+      </div>
+    </section>
+  </div>
+</div>

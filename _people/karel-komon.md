@@ -9,7 +9,7 @@ category:
   - kandidat-obec
 ordclenove: 17
 description: 27 let, voják # zobrazuje se v lide
-#img: people/karel-komon.jpg # zakomentuj radek dokud není fotka
+img: people/karel-komon.jpg # zakomentuj radek dokud není fotka
 #mail:
 #  - karel.komon@pirati.cz
 profiles:

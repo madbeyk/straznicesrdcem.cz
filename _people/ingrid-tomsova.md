@@ -9,7 +9,7 @@ category:
   - kandidat-obec
 ordclenove: 5
 description: 32 let, administrativní pracovnice, OSVČ # zobrazuje se v lide
-#img: people/ingrid-tomsova.jpg # zakomentuj radek dokud není fotka
+img: people/ingrid-tomsova.jpg # zakomentuj radek dokud není fotka
 #mail:
 #  - ingrid.tomsova@pirati.cz
 profiles:

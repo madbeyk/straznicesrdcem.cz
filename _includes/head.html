@@ -1,0 +1,48 @@
+<head>
+    {% capture title %}{% if page.ogtitle %}{{page.ogtitle}} | {% elsif page.title %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}{% endcapture %}
+    {% capture description %}{% if page.description %}{{ page.description }}{% elsif page.desc %}{{ page.desc }}{% elsif page.excerpt %}Pirátská strana: {{ page.excerpt | strip_html | strip_newlines | truncate: 330 }}{% else %}{{ site.description }}{% endif %}{% endcapture %}
+    {% capture keywords %}{{ site.keywords }}{% if page.keywords %}, {{ page.keywords }}{% endif %}{% if page.tags %}, {{ page.tags }}{% endif %}{% endcapture %}
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ title }}</title>
+    <meta name="author" content="Marek Förster - Česká pirátská strana" />
+    <meta name="robots" content="index,follow" />
+    <meta name="description" content="{{description}}">
+    <meta name="keywords" content="{{keywords}}" />
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="{{ 'assets/img/favicon/straznice_srdcem_120x120.png' | relative_url }}">
+    <link rel="icon" type="image/png" href="{{ 'assets/img/favicon/straznice_srdcem_128x128.png' | relative_url }}" sizes="128x128">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.organization.name }} RSS" href="{{ '/feed.xml' | relative_url }}">
+    <meta name="application-name" content="{{ site.organization.name | escape }}">
+    <meta name="msapplication-TileColor" content="#000000">
+    <meta property="og:url"           content="{{ page.url | absolute_url }}" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="{{ title }}" />
+    <meta property="og:description"   content="{{ description }}" />
+    {% if page.layout == 'post' %}
+    {% capture img_path %}{% asset '{{ page.image }}' @path %}{% endcapture %}
+    <meta property="og:image"         content="{{ img_path | absolute_url }}" />
+    {% elsif page.img %}
+    {% capture img_path %}{% asset '{{ page.img }}' @path %}{% endcapture %}
+    <meta property="og:image"         content="{{ img_path | absolute_url }}" />
+    {% else %}
+    <meta property="og:image"         content="{{ 'assets/img/brand/logo-round.png' | absolute_url }}" />
+    {% endif %}
+    <!-- Fonts -->
+    {% if page.layout != 'blank' %}
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    {% comment %}This actually points to assets/css/main.scss{% endcomment %}
+    <link rel="stylesheet" href="{% asset 'main.css' @path !type %}">
+    {% endif %}
+    <!-- API Mapy.cz that has to be in the header -->
+    {% if page.mapycz_api %}
+    <script type="text/javascript" src="https://api.mapy.cz/loader.js"></script>
+    <script type="text/javascript">Loader.load({% if page.mapycz_api=='mini-api' %}null, {api:"simple"}{% endif %})</script>
+    <style>.smap img { max-width: none !important; transform: none;}</style>
+	  {% endif %}
+
+    {% comment %}You can add your own content in _includes/head-custom.html and it will get appended to the page head{% endcomment %}
+    {% include head-custom.html %}
+</head>
+

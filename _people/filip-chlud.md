@@ -9,7 +9,7 @@ category:
   - kandidat-obec
 ordclenove: 4
 description: 32 let, OSVČ # zobrazuje se v lide
-#img: people/filip-chlud.jpg # zakomentuj radek dokud není fotka
+img: people/filip-chlud.jpg # zakomentuj radek dokud není fotka
 #mail:
 #  - filip.chlud@pirati.cz
 profiles:
